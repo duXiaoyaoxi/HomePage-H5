@@ -1,0 +1,22 @@
+@import url("base_inner.css");
+
+.features-nav{width:977px;height:30px;line-height:30px;margin:0 auto;font-size:16px;}
+.features-title{width:100%;height:60px;line-height:60px;margin:0 auto;overflow:hidden;color:#275273;font-size:24px;font-weight:normal;text-align:center;}
+.features-time{width:100%;margin:0 auto;color:#999999;font-size:14px;padding:5px 0 15px;text-align:center;}
+
+.features{width:977px;margin:0 auto;overflow:hidden;}
+.features .features-t,.features .features-b{width:977px;height:8px;background:url("../images/join/features-round.gif") no-repeat;font-size:0;}
+.features .features-c{background:#fcfcfc;border-left:1px solid #c7c7c7;border-right:1px solid #c7c7c7;color:#313131;}
+.features .features-b{background-position:0 -24px;}
+
+#blacklist-head{background:url("../images/blacklist/blacklist.gif") no-repeat center left;}
+#whitelist-head{background:url("../images/blacklist/whitelist.gif") no-repeat center left;}
+.blacklist-head{height:50px;padding:15px 0 15px 80px;margin-left:30px;clear:both;}
+.blacklist-head h3{color:#333333;font-size:24px;font-weight:bold;line-height:26px;margin-bottom:6px;}
+.blacklist-head p{color:#7A7A7A;font-size:18px;font-weight:500;line-height:18px;}
+
+.blacklist-body{padding:0px 55px;font-size:14px;}
+.blacklist-body .blacklist-item{float:left;width:195px;height:320px;text-align:center;padding:20px 10px;background:url("../images/blacklist/loadding.gif") no-repeat 50% 50%;}
+.blacklist-body .blacklist-item img{width:150px;height:270px;}
+.blacklist-body .blacklist-item p{color:#555555;margin-top:20px;text-align:left;font-size:14px;}
+.blacklist-body .blacklist-item h4{color:#333333;font-size:18px;font-weight:bold;margin-top:15px;}

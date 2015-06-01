@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+        <head>
+    	<meta name="renderer" content="webkit" />
+    	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    	<title>企+与您一起打造创新服务品牌</title>
+		<link href="../p/css/detail.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+<!-- header -->
+<div class="header-fixed"></div>
+<div class="header-shadow" style="display:block;"></div>
+
+<div class="header">
+	<div class="header-line"></div>
+	
+	<div class="logo"><a href="index.html"><img src="../p/images/index/logo.png" height="62" width="318" alt="qijia"></a></div>
+	<div class="wrap clearfix">
+        <div class="header-nav">
+            <ul class="nav">
+                <li>
+                    <a href="../index.html" hidefocus="true">首页</a>
+                </li>
+                <li>
+                    <a href="../introduce.html" hidefocus="true">产品</a>
+                </li>
+                <li>
+                    <a href="../consult.html" hidefocus="true">服务</a>
+                </li>
+                <li>
+                    <a href="../page-union.html" hidefocus="true">企＋联盟</a>
+                </li>
+                <li>
+                    <a href="../about.html" hidefocus="true">关于我们</a>
+                </li>
+            </ul>
+        </div>
+	</div>
+	<div class="login">
+		<span target="_blank" class="l">登录</span>
+		<span target="_blank" class="r">注册</span>
+	</div>
+</div>
+                <!-- banner -->
+		<div class="banner">
+			<span class="banner-title">产品介绍</span>
+		</div>	
+		
+		<!-- container -->
+		<div class="container wrap">
+			<div class="container-left">
+				<div class="new-header">
+					<h1>微信公众号</h1>
+					<p>发布时间： 2015-05-21 14:28:07&nbsp;&nbsp;&nbsp;作者：管理员</p>
+				</div>
+				<div class="news-body">
+					<p>“企+”提供完整的微信公众号管理，如公众号自动回复设置、自定义菜单管理、微官网管理、资讯群发和数据统计分析</p>
+				</div>
+			</div>
+		</div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-t">
+            <div class="footer-inner wrap">
+                <div class="footer-box">
+                    <ul>
+                        <li class="title">帮助中心</li>
+                        <li><a href="faq.html">新手指南</a></li>
+                        <li><a href="faq.html">主要功能</a></li>
+                        <li><a href="faq.html">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <ul>
+                        <li class="title">关于我们</li>
+                        <li><a href="about.html">公司简介</a></li>
+                        <li><a href="about.html" rel="nofollow">核心产品</a></li>
+                        <li><a href="about.html" rel="nofollow">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                	<ul>
+                		<li class="weixin">关注我们</li>
+                        <li>
+                            <p><a href="http://www.weibo.com/#" rel="nofollow" target="_blank">新浪微博</a></p>
+                            <p><a href="javascript:popWeiXin()">微信公众号</a></p>
+                        </li>
+                	</ul>
+                </div>
+                <div class="footer-box contact">
+                    <ul>
+                        <li class="title">产品咨询</li>
+                        <li class="telphone">4000-000-000</li>
+                        <li class="title">技术支持</li>
+                        <li class="telphone">020-00000000</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-b">
+            <div class="footer-inner wrap">
+                <p>CopyRight © 2014-2016 qi-jia.com,All Rights Reserved.&nbsp;&nbsp;版权所有&nbsp;&nbsp;广州市弗林信息科技有限公司</p>
+                <p>经营许可证编号：<a target="_blank" rel="nofollow" href="#"></a></p>
+                <p style="display:none;">
+                    <script type="text/javascript" src="p/js/site.js"></script>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+		<script type="text/javascript" src="../p/js/jquery.js"></script>
+        <script type="text/javascript" src="../p/js/common.js"></script>
+        <script type="text/javascript">
+	        $(function(){
+                        if ($(document).scrollTop() > 0) {
+                              $('.shortcut .gotop').slideDown();
+                        }
+    
+                        $(window).scroll(function(){
+                              var s = $(document).scrollTop();
+                              if (s > 0) {
+                                    $('.shortcut .gotop').slideDown();
+                              } else {
+                                    $('.shortcut .gotop').slideUp();
+                              }
+                        });
+
+                        initShortcut();
+
+                        initSms();
+
+			$('#keyword').val('');
+			
+                        $(document).bind('keypress',function(e){
+            	                if(e.keyCode == 13){
+            		              return false;
+            	                }
+                        });
+        
+			$('#keyword').bind('focus',function(){
+				$(this).attr('data-onfocus','true');
+				$(this).siblings('.help-search-tip').hide();
+			}).bind('blur',function(){
+				$(this).attr('data-onfocus','false');
+				if($(this).val() == ''){
+					$(this).siblings('.help-search-tip').show(); 
+				}else{
+					$(this).siblings('.help-search-tip').hide();
+				}
+			}).bind('keyup',function(e){
+				if($(this).attr('data-onfocus') == 'true'){
+					if(e.which == 13){
+						search();
+					}
+				}
+			});
+			
+			$('.help-search-tip').click(function(){ 
+				$(this).hide();
+				$(this).siblings('.help-search-text').focus();
+			});
+	
+			$('.help-nav-body .help-menu').click(function(){
+				if($(this).hasClass('open')){
+					$(this).removeClass('open');
+					$(this).next('ul').slideUp();
+				}else{
+					$(this).addClass('open');
+					$(this).next('ul').slideDown();
+				}
+			});
+
+                        $('#search-result').attr('onload','javascript:loadPage()');
+		});
+		
+		function loadPage(){
+			var result = $('#search-result').contents().find('.help-list');
+			if(result.size() > 0){
+            	                $('.help-result .help-header i').text('搜索结果');
+                                $('.help-nav-body .help-menu').removeClass('open');
+				$('.help-list').html(result.html());
+			}
+		}
+		
+		function search(){
+			if($.trim($('#keyword').val()) != ''){
+				document.domain = 'waiqin365.com';
+				$('#search-form').submit();				
+			}else{
+				window.location.reload();
+			}	
+		}
+	</script>
+</html>

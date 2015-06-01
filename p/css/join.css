@@ -1,0 +1,55 @@
+@import url("base.css");
+
+.banner{height:642px;background:url("../images/join/banner.jpg") no-repeat bottom center;padding-top:90px}
+.banner .banner-inner{height:642px;position:relative;}
+.banner .a1,.banner .a2,.banner .a3{position:absolute;top:642px;text-align:center;opacity:0;filter:alpha(opacity=0);}
+.banner .a1{left:249px;width:692px;height:40px;line-height:58px;color:#fff;font-size:36px;}
+.banner .a1 i{color:#ffe400;font-size:44px;font-style:normal;}
+.banner .a2{left:255px;width:680px;color:#ffe400;font-size:40px;height:60px;line-height:60px;}
+.banner .a3{width:1034px;height:1px;left:78px;top:333px;font-size:0;background:url("../images/news/opacity.png") repeat-x center;}
+.banner a{position:absolute;display:block;width:160px;height:160px;top:0px;opacity:0;filter:alpha(opacity=0);background-image:url("../images/join/banner-a2.png");background-repeat:no-repeat;-webkit-transition:-webkit-transform 0.4s ease-out;-moz-transition:-moz-transform 0.4s ease-out;transition:transform 0.4s ease-out;}
+.banner a.a4{left:260px;background-position:0 0}
+.banner a.a5{left:519px;background-position:-160px 0}
+.banner a.a6{left:769px;background-position:-320px 0}
+.banner a.a4:hover,.banner a.a5:hover,.banner a.a6:hover{/*-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);transform:rotate(360deg);*/}
+
+.feature{height:auto}
+.feature .feature-item{background:#f6f6f6;height:538px}
+
+.feature .feature-inner h3{top:109px;color:#333333;border-bottom:1px solid #d3d3d3}
+.feature .feature-inner h3 i{border-bottom:1px solid #ff5b21}
+.feature .feature-inner p{top:226px;color:#777777}
+.feature .item1{background:#ffffff}
+
+.feature .item1 h3{right:107px;}
+.feature .item1 p{right:107px;}
+.feature .item1 .a1,.feature .item1 .a2,.feature .item1 .a3,.feature .item1 .a4,.feature .item1 .a5{background-image:url("../images/join/item1.png");background-repeat:no-repeat;}
+.feature .item1 .a1{width:133px;height:349px;background-position:0 0;left:222px;top:538px;z-index:1}
+.feature .item1 .a2{width:331px;height:331px;background-position:-133px 0;left:124px;top:130px;}
+.feature .item1 .a3{width:57px;height:36px;background-position:0 -349px;left:289px;top:301px;}
+.feature .item1 .a4{width:41px;height:25px;background-position:-57px -349px;left:289px;top:301px;}
+.feature .item1 .a5{width:66px;height:41px;background-position:-98px -349px;left:289px;top:301px;}
+
+.feature .item2 h3{left:104px;}
+.feature .item2 p{left:104px;}
+.feature .item2 p i{font-size:24px;font-style:normal;color:#ff5b21}
+.feature .item2 .a1,.feature .item2 .a2,.feature .item2 .a3,.feature .item2 .a4,.feature .item2 .a5,.feature .item2 .a6,.feature .item2 .a7{left:896px;top:265px;background-image:url("../images/join/item2.png");background-repeat:no-repeat;}
+.feature .item2 .a1{width:173px;height:202px;left:837px;top:197px;background-position:0 -196px;z-index:7}
+.feature .item2 .a2{width:173px;height:196px;background-position:0 0;z-index:1}
+.feature .item2 .a3{width:162px;height:196px;background-position:-173px 0;z-index:2}
+.feature .item2 .a4{width:176px;height:196px;background-position:-335px 0;z-index:3}
+.feature .item2 .a5{width:162px;height:202px;background-position:-173px -196px;z-index:4}
+.feature .item2 .a6{width:176px;height:202px;background-position:-335px -196px;z-index:5}
+.feature .item2 .a7{width:163px;height:202px;background-position:-511px -196px;z-index:6}
+
+.advertise{height:595px;background:#fff;text-align:center}
+.advertise h2{font-size:40px;line-height:72px;color:#333333;padding:101px 0 58px}
+.advertise .wrap li{float:left;width:286px;height:268px;background:url("../images/join/ad.jpg") no-repeat center center;margin-left:15px}
+.advertise .wrap li.ad1{margin-left:0;background-position:0 0}
+.advertise .wrap li.ad2{background-position:-300px 0}
+.advertise .wrap li.ad3{background-position:-595px 0}
+.advertise .wrap li.ad4{background-position:-892px 0}
+
+.consult{height:231px;background:#ff6935;}
+.consult p{color:#fff;font-size:36px;line-height:58px;text-align:center}
+.consult p .online{display:inline-block;*display:inline;*zoom:1;width:280px;height:64px;background:url("../images/join/online.png") no-repeat 0 0;margin-top:48px}

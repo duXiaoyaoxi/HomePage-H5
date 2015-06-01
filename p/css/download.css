@@ -1,0 +1,21 @@
+@import url("base.css");
+
+.banner{height:538px;background:url("../images/download/banner.jpg") no-repeat 50% bottom;padding-top:90px}
+.banner .banner-inner{position:relative;height:538px;}
+
+.banner .a1,.banner .a2,.banner .a3,.banner .a4,.banner .a5,.banner .a6,.banner .a7{position:absolute;color:#fff;}
+.banner .a1{font-size:64px;line-height:100px;left:66px;top:72px;}
+.banner .a2{color:#e19e36;font-size:26px;line-height:50px;left:66px;top:166px;}
+.banner .a3,.banner .a4{display:block;left:66px;top:252px;width:176px;height:50px;background:url("../images/download/btn.png") no-repeat 0 0;outline:none;text-indent:-100000px;}
+.banner .a4{top:325px;background-position:0 -50px;}
+.banner .a5{width:123px;height:123px;left:286px;top:252px;background:#fff;}
+.banner .a5 img{width:123px;height:123px;}
+.banner .a6{width:436px;height:102px;left:66px;top:410px;background:url("../images/download/shadow.png") repeat;border-radius:12px;}
+.banner .a7{width:411px;height:451px;right:40px;bottom:0;background:url("../images/download/a7-v=20150409.png") no-repeat;}
+
+.banner .a6 .dl-title{color:#fff;font-size:16px;line-height:36px;text-indent:19px;}
+.banner .a6 .dl-tip{margin-left:10px;color:#ff0000;}
+.banner .a6 .dl-content{margin-left:19px;background:#fff;width:382px;height:41px;}
+.banner .a6 .input-wrap{background:#fff;color:#999999;font-size:14px;height:41px;left:19px;line-height:41px;padding-left:12px;position:absolute;top:36px;width:282px;}
+.banner .a6 .input-text{background:transparent;border:none;color:#000000;font-weight:700;font-size:14px;height:41px;line-height:41px;outline:medium none;padding-left:10px;position:absolute;top:36px;left:19px;width:284px;z-index:10;}
+.banner .a6 .dl-btn{background:#287dca;display:block;height:41px;line-height:41px;position:absolute;left:313px;text-align:center;text-decoration:none;top:36px;width:100px;font-size:20px;color:#fff;}

@@ -1,0 +1,199 @@
+@import url("base.css");
+
+.banner{height:300px;line-height:300px;font-size:36px;color:#ff6935;text-align: center; padding-top:90px;background:url("../images/consult/banner.jpg") no-repeat 50% bottom;}
+.banner .banner-inner{position:relative;height:162px;}
+
+.feature .feature-item{background:#ffffff;height:435px}
+.feature .feature-inner{position:relative;height:100%}
+.feature .feature-inner h3{position:absolute;display:block;top:124px;width:487px;height:96px;line-height:96px;font-size:40px;font-weight:normal}	
+.feature .feature-inner h3 i{position:absolute;display:block;width:192px;height:96px;top:0;left:0;}	
+.feature .feature-inner p{position:absolute;width:487px;top:241px;font-size:16px;line-height:35px}
+.feature .feature-inner div{position:absolute;opacity:0;filter:alpha(opacity=0)}
+.feature .feature-item .wrap .num{ 
+	opacity: 1;
+	font-size: 28px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	top:47%;
+	left: -30px;
+}
+
+.feature {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.feature .item1 {
+	height: 452px;
+}
+
+.feature .item1 h3 {
+    border-bottom: 1px solid #d3d3d3;
+    left: 104px;
+}
+
+.feature .item1 h3 i {
+    border-bottom: 1px solid #ff5b21;
+}
+
+.feature .item1 p {
+    left: 104px;
+    color: #666666;
+}
+
+.feature .item1 .a1 {
+    background-image: url("../images/consult/item4.png");
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+
+.feature .item1 .a1 {
+    width: 359px;
+    height: 245px;
+    background-position: 0 0;
+    right: 134px;
+    top: 108px;
+    z-index: 5;
+}
+
+.feature .item1 .wrap { 
+	border-left: 2px solid #f9a68a;
+	overflow: visible;
+}
+
+.feature .item1 .wrap .num { 
+	background: url("../images/consult/yuan-orange.png");
+	color: #ffffff;
+}
+ 
+.feature .item2 {
+    /*background: #c1dcac;*/
+    height: 462px;   
+}
+
+.feature .item2 h3 {
+    border-bottom: 1px solid #d3d3d3;
+    left: 104px;
+}
+
+.feature .item2 h3 i {
+    border-bottom: 1px solid #ff5b21;
+}
+
+.feature .item2 p {
+    left: 104px;
+    color: #666666;
+}
+
+.feature .item2 .a1 {
+    background-image: url("../images/consult/item1.png");
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+
+.feature .item2 .a1 {
+    width: 408px;
+    height: 369px;
+    background-position: 0 0;
+    right: 120px;
+    top: 106px;
+    z-index: 5;
+}
+
+.feature .item2 .wrap .num { 
+	background: url("../images/consult/yuan-orange.png");
+	color: #ffffff;
+}
+
+.feature .item2 .wrap { 
+	border-left: 2px solid #f9a68a;
+	overflow: visible;
+}
+
+.feature .item3 {
+	height: 457px;
+}
+
+.feature .item3 h3 {
+    border-bottom: 1px solid #d3d3d3;
+    left: 104px;
+}
+
+.feature .item3 h3 i {
+    border-bottom: 1px solid #ff5b21;
+}
+
+.feature .item3 p {
+    left: 104px;
+    color: #666666;
+}
+
+.feature .item3 .a1 {
+    background-image: url("../images/consult/item2.png");
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+
+.feature .item3 .a1 {
+    width: 389px;
+    height: 252px;
+    background-position: 0 0;
+	right: 119px;
+    top: 150px;
+    z-index: 5;
+}
+
+.feature .item3 .wrap { 
+	border-left: 2px solid #f9a68a;
+	overflow: visible;
+}
+
+.feature .item3 .wrap .num { 
+	background: url("../images/consult/yuan-orange.png");
+	color: #ffffff;
+}
+
+.feature .item4 { 
+    /*background: #acccdc;*/
+    height: 432px;
+}
+
+.feature .item4 h3 {
+    border-bottom: 1px solid #d3d3d3;
+    left: 104px;
+}
+
+.feature .item4 h3 i {
+    border-bottom: 1px solid #ff5b21;
+}
+
+.feature .item4 p {
+    left: 104px;
+    color: #666666;
+}
+
+.feature .item4 .a1 {
+    background-image: url("../images/consult/item3.png");
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+
+.feature .item4 .a1 {
+    width: 276px;
+    height: 294px;
+    background-position: 0 0;
+	right: 181px;
+    top: 140px;
+    z-index: 5;
+}
+.feature .item4 .wrap { 
+	border-left: 2px solid #f9a68a;
+	overflow: visible;
+}
+
+.feature .item4 .wrap .num { 
+	background: url("../images/consult/yuan-orange.png");
+	color: #ffffff;
+}

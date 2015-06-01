@@ -1,0 +1,31 @@
+@import url("base_inner.css");
+
+.banner{width:977px;height:367px;margin:0 auto;overflow:hidden;background:url("../images/about/banner.jpg") no-repeat;}
+.banner.service-banner{background:url("../images/about/lxkf.jpg") no-repeat;}
+
+.features{width:977px;margin:0 auto;margin-top:24px;position:relative;background:#f7f7f7;border:1px solid #c7c7c7;}
+.features-title{height:50px;line-height:50px;margin:0px 20px;overflow:hidden;border-bottom:1px solid #dcdddd;}
+.features-title h2{margin-left:10px;font-size:18px;font-weight:normal;}
+.features-content{margin:15px 20px;overflow:hidden}
+.features-content p{color:#313131;font-size:14px;line-height:24px;margin-top:5px;text-indent:28px;}
+.features-content p a{color:#4171B8;}
+.features-content.first{margin:5px 20px;}
+
+.service-qq{width:550px;margin:-42px 0 0 155px;text-indent:5px;}
+.service-qq:after{display:block;clear:both;content:"";}
+.service-qq dd{float:left;text-align:left;width:80px;}
+.service-item{line-height:40px;width:100%;}
+.service-title{display:inline-block;font-size:16px;width:150px;text-align:right;}
+.service-desc{display:inline-block;font-size:14px;text-indent:5px;}
+
+.weibo-items ul,.weibo-items li{margin:0px;padding:0px;list-style:none}
+.weibo-items ul{width:700px;margin:0 auto}
+.weibo-items li{float:left;width:310px;margin:0px 40px 20px 0px;height:64px;}
+.weibo-items li.waiqinbbs,.weibo-items li.qq,.weibo-items li.weibo-sina,.weibo-items li.weibo-qq,.weibo-items li.weixin{background:#ececec url("../images/about/contact_bg.png") no-repeat 0 0;}
+.weibo-items li.waiqinbbs{background-position:left -256px;}
+.weibo-items li.qq{background-position:left -64px;}
+.weibo-items li.weixin{background-position:left -128px;}
+.weibo-items li.weibo-sina{background-position:left -192px;}
+.weibo-items li.waiqinbbs a,.weibo-items li.qq a,.weibo-items li.weibo-sina a,.weibo-items li.weibo-qq a,.weibo-items li.weixin a{display:block;margin-left:75px;font-size:12px;color:#5C5C5D;cursor:pointer;outline:none;text-decoration:none;line-height:20px;}
+.weibo-items li a.weibo-title{margin-top:10px;color:#FC8802;font-weight:bold;font-size:14px}
+.weibo-items li a.weixin-title{margin-top:0px;}

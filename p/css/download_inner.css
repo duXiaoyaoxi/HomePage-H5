@@ -1,0 +1,61 @@
+@import url("base_inner.css");
+
+#android,#iphone{width:100%;overflow:hidden;}
+.wrap .banner{width:977px;height:557px;margin:0 auto;position:relative;}
+#android .banner{background:url("../images/download/banner-android.jpg") no-repeat;}
+#iphone .banner{background:url("../images/download/banner-iphone.jpg") no-repeat;}
+
+.switch a,.download a,.send-content{background:url("../images/download/dl-btn-v=20141120.png") no-repeat;}
+.switch a,.download a{width:222px;height:60px;display:inline-block;margin-left:14px;outline:none;text-indent:-9999px; *display:inline;*float:left;}
+
+.switch,.download{position:absolute;top:22px;right:14px;}
+.switch a.android{background-position:0 0;}
+.switch a.android:hover{background-position:0 -60px;}
+.switch a.iphone{background-position:0 -120px;}
+.switch a.iphone:hover{background-position:0 -180px;}
+
+#android .switch a.android{background-position:0 -60px;}
+#iphone .switch a.iphone{background-position:0 -180px;}
+
+.download{top:393px;}
+.download a.local{background-position:-234px 0;}
+.download a.appstore{background-position:-234px -60px;}
+#iphone .download a.local{background-position:-234px -120px;}
+
+.send{width:977px;margin:0 auto;padding-top:30px;border-top:1px solid #dadada;}
+.send .send-type{width:448px;height:135px;float:left;padding:0 20px;border-right:1px solid #dadada;}
+.send .error-info{color:red;clear:both;font-size:14px;margin-top:10px;height:36px;line-height:36px;}
+
+.send .send-type .send-title{color:#99999a;font-size:19px;}
+.send .send-type .send-title span{color:#f89b27;}
+.send .send-type .dl-type{width:320px;float:left;}
+.send .send-type .dl-code{width:128px;float:left;text-align:right;margin:6px 0 0 -4px;}
+	
+.send .send-type p{font-size:14px;color:#99999a;margin-top:10px;}
+.send .send-type p i{color:#f89b27;font-style:normal;}
+
+.send-content{position:relative;width:309px;height:36px;background-position:0 -243px;outline:none;float:left;margin-top:10px;}
+.send-content .input-wrap{color:#999999;font-size:14px;height:36px;left:0;line-height:36px;padding-left:10px;position:absolute;top:0;width:209px;z-index:0;}
+.send-content .input-text{background:url("../images/download/blank.gif") repeat;border:none;color:#000000;font-weight:700;font-size:14px;height:25px;line-height:25px;outline:medium none;padding-left:10px;position:absolute;top:5px;left:0;width:209px;z-index:10;}
+.send-content.disabled a{color:#818181;font-size:14px;}
+.send-content .send-btn{display:block;height:36px;line-height:36px;position:absolute;right:0;text-align:center;text-decoration:none;top:0;width:90px;}
+
+body,html{height:100%;}
+.down-header-bg{background:#f6f6f6 url("../images/download/jgx.png") repeat-x center bottom;margin:0px;}
+.down-header,.down-content,.down-footer{width:100%;margin:auto;}
+.down-header{margin:auto;line-height:20px;color:#000000;height:80px;}
+.down-header .down-icon{float:left;background:url("../images/download/logo-v=20150302.png");width:65px;height:65px;margin:8px 0 0 8px;}
+.down-header .down-title{font-size: 16px;float:left;margin:20px 0 0 5px;}
+.down-header .down-title span{font-size:12px;}
+.down-btn{float:right;margin-top:4px;}
+.down-header .down-btn a{background:url("../images/download/download_phone.png") no-repeat;height:35px;line-height:35px;width:97px;display:block;color:#ffffff;text-align:center;margin:0px 8px 0 0;text-decoration:none;}
+.down-header .down-btn a.one-btn{margin-top:20px;}
+.down-content p{text-indent:26px;font-size:12px;color:#636161;margin:8px 5px 0px 5px; }
+.down-content .down-content-last{margin-bottom:8px}
+.down-footer,.down-contact{font-size:16px;color:#000000;background:#f6f6f6 url("../images/download/jgx.png") repeat-x center top;padding:5px 0 3px 0;}
+.down-footer span,.down-contact span{margin:0 0 3px 5px;}
+.down-footer p,.down-contact p{margin:0px;font-size:13px;text-indent:24px;height:28px;line-height:28px;color:#636161;}
+
+div.down-contact a#fsina,div.down-contact a#fqq{background:url("../images/portal/weibo.png") no-repeat;display:inline-block;height:28px;line-height:28px;padding-left:10px;margin:0 5px 0 -5px;color:#636161;}
+div.down-contact a#fsina{background-position:0 -56px;}
+div.down-contact a#fqq{background-position:0 -84px;}

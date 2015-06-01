@@ -1,0 +1,19 @@
+@import url("base_inner.css");
+
+.features{width:977px;margin:0 auto;overflow:hidden;}
+.features-nav{width:977px;height:30px;line-height:30px;margin:0 auto;font-size:16px;}
+.features-title{width:977px;height:60px;line-height:60px;margin:0 auto;overflow:hidden;color:#275273;font-size:24px;font-weight:normal;text-align:center;}
+.features .features-t,.features .features-b{width:977px;height:8px;background:url("../images/join/features-round.gif") no-repeat;font-size:0;}
+.features .features-c{background:#fcfcfc;border-left:1px solid #c7c7c7;border-right:1px solid #c7c7c7;color:#313131;}
+.features .features-t{background-position:0 -32px;}
+.features .features-b{background-position:0 -16px;}
+.features-time{width:977px;margin:0 auto;color:#999999;font-size:14px;padding:5px 0 15px;text-align:center;}
+
+.protocol-l{position:relative;width:224px;height:500px;float:left;font-size:14px;}
+.protocol-r{width:711px;height:auto;float:left;overflow:hidden;padding:20px;font-size:14px;background:url("../images/whitelist/list-split.gif") repeat-y left;}
+.protocol-r h3.info{color:#333333;text-indent:10px;}
+.protocol-r div.white-item{width:240px;height:400px;margin:10px 50px;background:url("../images/blacklist/loadding.gif") no-repeat 50% 50%;}
+.protocol-item{background:#ffffff;color:#cccccc;height:75px;line-height:75px;width:224px;font-weight:bold;font-size:20px;text-indent:40px;border-bottom:1px solid #c7c7c7;cursor:pointer;}
+.protocol-arrow{position:absolute;z-index:15;width:16px;height:24px;background:url("../images/whitelist/arrow.png") no-repeat 0 0;left:210px;top:25px;}
+
+.selected{background:#f6f6f6;color:#333333;}
